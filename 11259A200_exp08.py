@@ -34,7 +34,7 @@ y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 
 print("\nConfusion Matrix:")
-print(confusion_matrix(y_test, y_pred))
+print(confusion_matrix(y_test, y_pred, labels=["Fail", "Pass"]))
 
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
