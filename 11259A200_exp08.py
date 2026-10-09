@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Load dataset
 data = pd.read_csv("data.csv")
 
-# Input features
+# Input feature
 X = data[['Hours_Studied', 'Attendance', 'Assignments']]
 
 # Target variable
